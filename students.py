@@ -18,4 +18,7 @@ class Students:
     
     def get_registered_courses(self):
         return self.registered_courses
+
+    def __str__(self):
+        return f"Student: {self.name} (Student ID: {self.student_id})"
     
